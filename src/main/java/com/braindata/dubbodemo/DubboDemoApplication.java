@@ -1,8 +1,10 @@
 package com.braindata.dubbodemo;
 
-import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
+import com.braindata.dubbodemo.intf.StuRpcService;
+import org.apache.dubbo.config.spring.context.annotation.EnableDubbo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 @SpringBootApplication
 @EnableDubbo
